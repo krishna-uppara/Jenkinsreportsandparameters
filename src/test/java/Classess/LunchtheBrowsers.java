@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
@@ -92,6 +93,13 @@ public class LunchtheBrowsers {
 	public void lunch13()
 	{
 		System.out.println("lunch13");
+		
+	}
+	@Test
+	public void lunch14()
+	{
+		System.out.println("lunch14");
+		Assert.fail();
 		
 	}
 }
