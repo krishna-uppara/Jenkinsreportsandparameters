@@ -39,7 +39,7 @@ public class LunchtheBrowsers {
 	@Test
 	public void lunch()
 	{
-		initApplication("ff");
+		initApplication("chrome");
 		driver.get("https://www.google.com");
 		driver.findElement(By.xpath("//input[@title='Search']")).sendKeys("Selenium");
 		List<WebElement> searchlist = driver.findElements(By.xpath("//ul[@class='erkvQe']//li"));
@@ -73,5 +73,25 @@ public class LunchtheBrowsers {
 		driver.quit();
 		
 	}
+	
+	@Test
+	public void lunch11()
+	{
+		System.out.println("lunch1");
+		
+	}
 
+	@Test
+	public void lunch12()
+	{
+		System.out.println("lunch12");
+		
+	}
+	
+	@Test
+	public void lunch13()
+	{
+		System.out.println("lunch13");
+		
+	}
 }
