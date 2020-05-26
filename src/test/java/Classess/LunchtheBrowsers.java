@@ -22,7 +22,7 @@ public class LunchtheBrowsers {
 		
 //		WebDriver driver = new ChromeDriver();
 		
-		if(browser.equals(System.getProperty("Browser"))){
+		if(browser.equals(System.getProperty("browser"))){
 			
 			System.setProperty("webdriver.chrome.driver", ".//exes//chromedriver.exe");
 			
